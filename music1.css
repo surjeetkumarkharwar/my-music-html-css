@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    font-size: 16px;
+}
+:root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+
+}
+html, body{
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+line-height: 1.4;
+scroll-behavior: smooth;
+}
+header{
+background-color: var(--purple300);
+display: block;
+position: sticky;
+z-index: 100;
+box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+top: 0 ; 
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+text-align: center;
+color: white;
+padding: 20px 0px;
+}
+
+
+nav ul a li {
+border-bottom: 2px solid transparent;
+transition: 0.2s ease-in;
+list-style: none;
+color: whitesmoke;
+}
+
+nav ul a li:hover {
+border-bottom: 2px solid white;
+transition: 0.2s ease-in 0.1s;
+list-style: none;
+color: white;
+}
+
+.container ul a {
+text-decoration: none;
+}
+
+
+nav ul {
+display: flex;
+gap: 20px;
+cursor: pointer;
+}
+
+ul {
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+/* padding-inline-start: 40px; */
+}
+.logo{
+font-size: 32px;
+font-weight: 700;
+}
+
+.hero-section{
+background-image: url(https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg?w=740&t=st=1693377699~exp=1693378299~hmac=d2c6e1bbafb34b78d97fabedb6bcfebef2d12456e0883fd9514ec04a71a0b2f5);
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+padding: 10.5rem 0;
+text-align: center;
+display: flex;
+}
+
+
+.hero-section .container {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+section{
+scroll-margin: 50px;
+}
+
+h1{
+font-size: 90px;
+font-weight: bold;
+}
+
+h3{
+display: block;
+font-size: 2.1em;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+p{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-size: 16px;
+line-height: 1.9rem;
+}
